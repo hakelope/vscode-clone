@@ -1,0 +1,154 @@
+@keyframes standard {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes standard-reverse-1 {
+    0% {
+        transform: translateX(3px) translateY(2px);
+    }
+    50% {
+        transform: translateX(3px) translateY(4px);
+    }
+    100% {
+        transform: translateX(3px) translateY(2px);
+    }
+}
+
+@keyframes standard-reverse-2 {
+    0% {
+        transform: translateX(-3px) translateY(2px);
+    }
+    50% {
+        transform: translateX(-3px) translateY(4px);
+    }
+    100% {
+        transform: translateX(-3px) translateY(2px);
+    }
+}
+
+:root {
+    --white-eye-size: 40px;
+    --black-eye-size: 25px;
+}
+
+.main {
+    width: 750px;
+    height: 600px;
+    background-color: rgb(53, 53, 65);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.main__profile {
+    width: 150px;
+    height: 100px;
+    margin: 40px;
+    border-radius: 10%;
+    background-color: rgb(225, 182, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: standard 2s ease-in-out infinite;
+}
+.main__profile__white-eye1 {
+    width: var(--white-eye-size);
+    height: var(--white-eye-size);
+    background-color: white;
+    border-radius: 50%;
+    transform: translateX(-17px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__profile__white-eye2 {
+    width: var(--white-eye-size);
+    height: var(--white-eye-size);
+    background-color: white;
+    border-radius: 50%;
+    transform: translateX(17px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__profile__black-eye1 {
+    width: var(--black-eye-size);
+    height: var(--black-eye-size);
+    background-color: black;
+    border-radius: 50%;
+    transform: translateX(3px) translateY(2px);
+    animation: standard-reverse-1 2s ease-in-out 0.5s infinite;
+}
+.main__profile__black-eye2 {
+    width: var(--black-eye-size);
+    height: var(--black-eye-size);
+    background-color: black;
+    border-radius: 50%;
+    transform: translateX(-3px) translateY(2px);
+    animation: standard-reverse-2 2s ease-in-out 0.5s infinite;
+}
+
+.main__wait {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+    font-family: "Nanum Gothic";
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+.main__guide {
+    font-family: "Nanum Gothic";
+    color: rgb(126, 129, 131);
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.main__form {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.main__form p {
+    color: darkgrey;
+}
+.main__form input {
+    background-color: rgb(29, 29, 29);
+    border: 0 solid black;
+    border-radius: 8px;
+    width: 700px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Nanum Gothic";
+    font-size: 20px;
+    color: white;
+    padding-left: 12px;
+    transform: translateX(-6px);
+    transition: all 0.5s;
+}
+
+.main__form input:focus {
+    transform: scale(1.02) translateX(-6px);
+    border: 0px;
+}
+
+.main__form input:nth-child(5) {
+    background-color: rgb(25, 78, 176);
+    color: rgb(120, 120, 120);
+    font-family: "Nanum Gothic";
+    font-size: 20px;
+    width: 712px;
+    margin-top: 10px;
+}
