@@ -142,6 +142,7 @@
 .main__form input:focus {
     transform: scale(1.02) translateX(-6px);
     border: 0px;
+    outline: none;
 }
 
 .main__form__submit {
@@ -156,6 +157,7 @@
     font-size: 20px;
     color: rgb(255, 255, 255);
     padding-left: 12px;
+    transition: transform 0.5s;
     transform: translateX(-6px);
 }
 
