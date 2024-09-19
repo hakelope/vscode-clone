@@ -38,7 +38,7 @@
 
 .main {
     width: 750px;
-    height: 620px;
+    height: 652px;
     background-color: rgb(53, 53, 65);
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@
     transition: transform 0.5s;
 }
 
-.main__form input:focus {
+.main__form__input:focus {
     transform: scale(1.02) translateX(-6px);
     border: 0px;
     outline: none;
@@ -158,16 +158,39 @@
     transform: translateX(-6px);
 }
 
+.main__form__submit:hover {
+    transform: scale(1.02) translateX(-6px);
+    cursor: pointer;
+}
+
 .main__form__visited {
-    color: rgb(186, 186, 186);
-    background-color: rgb(29, 29, 29);
-    text-decoration: none;
+    background-color: rgb(53, 53, 65);
+    border: 3px solid rgb(213, 212, 207);
+    border-radius: 8px;
+    width: 694px;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: "Nanum Gothic";
-    font-weight: bold;
-    height: 18px;
-    width: 180px;
-    padding: 6px;
-    margin: 10px;
-    border-radius: 3px;
-    transform: translateX(-15px);
+    font-size: 20px;
+    color: white;
+    padding-left: 12px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-6px);
+    transition: transform 0.5s;
+}
+
+.main__form__visited:hover {
+    transform: scale(1.02) translateX(-6px);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 40rem rgb(29, 29, 29) inset;
 }

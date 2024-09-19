@@ -17,24 +17,28 @@
                     <div class="main__profile__black-eye2"></div>
                 </div>
             </div>
-            <h1 class="main__wait">처음 뵙겠습니다!</h1>
+            <h1 class="main__wait">안녕하세요!</h1>
             <p class="main__guide">
-                이메일 주소와 비밀번호를 알려주시면, 계정 등록을 도와드릴게요.
+                이메일 주소와 비밀번호를 알려주시면, 로그인을 도와드릴게요.
             </p>
 
-            <form class="main__form">
+            <form action="friends.html" method="get" class="main__form">
                 <p>이메일</p>
-                <input class="main__form__input" type="text" />
+                <input name="email" class="main__form__input" type="text" />
                 <p>비밀번호</p>
-                <input class="main__form__input" type="password" />
                 <input
+                    required
+                    name="password"
+                    class="main__form__input"
+                    type="password"
+                />
+                <input
+                    required
                     class="main__form__submit"
                     type="submit"
-                    value="계정 등록하기"
+                    value="로그인"
                 />
-                <a class="main__form__visited" href="#"
-                    >혹시.. 계정이 있으신가요?</a
-                >
+                <a class="main__form__visited" href="#">회원가입</a>
             </form>
         </div>
 
