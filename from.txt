@@ -1,2 +1,6 @@
 <a href="https://www.flaticon.com/kr/free-icons/" title="프로필 아이콘">프로필 아이콘 제작자: FR_Media - Flaticon</a>
 <a href="www.freepik.com" title="배경 사진"> 배경 출처 : www.freepik.com </a>
+<div> 아이콘 제작자 <a href="https://www.flaticon.com/kr/authors/freepik" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/kr/" title="Flaticon">www.flaticon.com'</a></div>
+<div> 아이콘 제작자 <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/kr/" title="Flaticon">www.flaticon.com'</a></div>
+<div> 아이콘 제작자 <a href="https://www.flaticon.com/kr/authors/ayub-irawan" title="Ayub Irawan"> Ayub Irawan </a> from <a href="https://www.flaticon.com/kr/" title="Flaticon">www.flaticon.com'</a></div>
+<div> 아이콘 제작자 <a href="https://www.flaticon.com/kr/authors/sicon" title="Sicon"> Sicon </a> from <a href="https://www.flaticon.com/kr/" title="Flaticon">www.flaticon.com'</a></div>
