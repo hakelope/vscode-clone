@@ -1,5 +1,3 @@
-@import "variables.css";
-
 @keyframes standard {
     0% {
         transform: translateY(-10px);
