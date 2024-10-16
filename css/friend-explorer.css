@@ -1,0 +1,9 @@
+.friends__explorer {
+    display: flex;
+    width: 200px;
+    height: 120vh;
+    background-color: rgb(23, 23, 25);
+    overflow: hidden;
+    border-left: 1px solid rgb(43, 44, 47);
+    border-right: 1px solid rgb(43, 44, 47);
+}
