@@ -1,8 +1,9 @@
 .friends__main {
     display: flex;
+    flex-direction: column;
     padding-top: 30px;
     padding-right: 30px;
-    width: 90%;
+    width: 100vw;
     overflow: hidden;
 }
 
@@ -18,7 +19,6 @@
     height: 70px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
 }
 .user__component__condition {
@@ -31,16 +31,28 @@
     border-radius: 0 40px 40px 0;
     background-color: rgb(51, 51, 51);
     box-sizing: border-box;
-    padding-left: 15px;
+    padding-left: 30px;
     padding-right: 60px;
     display: flex;
 
+    margin-bottom: 30px;
     justify-content: space-between;
 }
 .status__message {
     color: rgb(168, 168, 168);
     font-size: larger;
     font-family: "Nanum Gothic";
+}
+.read__more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(40, 40, 40);
+    margin: 10px;
+    border-radius: 13px;
+    font-size: larger;
 }
 
 .user__component,
@@ -57,4 +69,11 @@
     height: 70px;
     border-radius: 30px;
     margin-right: 20px;
+}
+
+.friends__line {
+    width: 1000vw;
+    height: 20px;
+    border-bottom: 2px solid rgb(38, 38, 38);
+    margin-bottom: 50px;
 }
